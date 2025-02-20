@@ -7,6 +7,7 @@ draggedPiece;
 function changeBGImage() {
     puzzleBoard.style.backgroundImage = `url(images/backGround${this.id}.jpg)`;
 
+
     //*Second correction 
     let puzzleContainer = document.querySelector(".puzzle-pieces"); //* Removes pieces from the drop-zones and returns them to the starting area
 
@@ -15,6 +16,10 @@ function changeBGImage() {
             puzzleContainer.appendChild(zone.firstChild); //*Move the piece back to the piece area
         }
     });
+}
+
+
+
 }
 
 
@@ -35,6 +40,10 @@ function handleDrop(e) {
     
     if(!this.hasChildNodes()) //*firts correction
  
+
+
+
+
 
     this.appendChild(draggedPiece);
 }
