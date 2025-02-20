@@ -22,6 +22,12 @@ function handleDrop(e) {
     e.preventDefault();
     console.log(`dropped something on me`);
 
+    
+    if(!this.hasChildNodes()) //*firts correction
+ 
+
+
+
 
     this.appendChild(draggedPiece);
 }
