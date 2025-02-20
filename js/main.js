@@ -5,9 +5,9 @@ let theButtons = document.querySelectorAll("#buttonHolder img"),
   draggedPiece;
 
 function changeBGImage() {
-  //bug fix #2 should go here, it`s fairly short
+  //bug fix #2 should go here, its fairly short
 
-  puzzleBoard.style.backgroundImage = url('images/backGround${this.id}.jpg');
+  puzzleBoard.style.backgroundImage = url(images/backGround${this.id}.jpg);
 }
 
 function handleStartDrag() {
@@ -24,7 +24,7 @@ function handleDrop(e) {
   e.preventDefault();
   console.log("dropped something on me");
 
-  
+  //bug fix #1 should go here, its fairly short
   this.appendChild(draggedPiece);
 }
 
