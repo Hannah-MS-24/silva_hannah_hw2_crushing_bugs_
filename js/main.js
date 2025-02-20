@@ -20,9 +20,6 @@ function changeBGImage() {
 
 
 
-}
-
-
 function handleStartDrag() {
     console.log('started dragging this piece ', this);
     draggedPiece = this;
