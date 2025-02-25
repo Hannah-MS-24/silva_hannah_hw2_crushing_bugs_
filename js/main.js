@@ -31,8 +31,6 @@ function changeBGImage() {
 
 }
 
-
-
 function handleStartDrag() {
     console.log('started dragging this piece ', this);
     draggedPiece = this;
@@ -50,11 +48,6 @@ function handleDrop(e) {
     
     if(!this.hasChildNodes()) //*firts correction
  
-
-
-
-
-
     this.appendChild(draggedPiece);
 }
 
