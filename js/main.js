@@ -16,6 +16,19 @@ function changeBGImage() {
             puzzleContainer.appendChild(zone.firstChild); //*Move the piece back to the piece area
         }
     });
+
+    //*Extra Correction
+    // Updates puzzle piece images to corresponding set
+    puzzlePieces.forEach((piece, index) => {
+        piece.src = `images/${getPieceName(index)}${this.id}.jpg`;
+    });
+}
+
+    // Function that helps in mapping the part index to file names
+    function getPieceName(index) {
+        const pieceNames = ["topLeft", "topRight", "bottomLeft", "bottomRight"];
+        return pieceNames[index];
+
 }
 
 
