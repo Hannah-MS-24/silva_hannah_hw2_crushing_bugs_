@@ -10,6 +10,7 @@ function changeBGImage() {
 
     //*Second correction 
     let puzzleContainer = document.querySelector(".puzzle-pieces"); //* Removes pieces from the drop-zones and returns them to the starting area
+    console.log(puzzleContainer);
 
     dropZones.forEach((zone) => {
         if (zone.firstChild) {
