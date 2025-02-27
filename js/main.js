@@ -10,6 +10,7 @@ function changeBGImage() {
 
     //*Second correction 
     let puzzleContainer = document.querySelector(".puzzle-pieces"); //* Removes pieces from the drop-zones and returns them to the starting area
+    console.log(puzzleContainer);
 
     dropZones.forEach((zone) => {
         if (zone.firstChild) {
@@ -45,8 +46,7 @@ function handleDrop(e) {
     e.preventDefault();
     console.log(`dropped something on me`);
 
-    
-    if(!this.hasChildNodes()) //*firts correction
+    if(!this.hasChildNodes()) //*first correction
  
     this.appendChild(draggedPiece);
 }

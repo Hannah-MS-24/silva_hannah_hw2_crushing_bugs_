@@ -12,7 +12,7 @@ cd drag-and-drop-puzzle-game
 
 # Usage
 
-1. 
+1. explicar o que fazer no site
 
 # Contributing
 1. Create a new repository
@@ -26,8 +26,6 @@ cd drag-and-drop-puzzle-game
 
 # Credits
 Developed by [Your Name or Username].
-Puzzle images sourced from [Insert Image Source].
-Special thanks to [Other Contributors, if any].
 
 # License
 MIT License 
