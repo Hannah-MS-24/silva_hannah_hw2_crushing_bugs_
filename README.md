@@ -1,6 +1,8 @@
 # silva_hannah_hw2_crushing_bugs_
 
-- For this assignment, we were asked to fix two errors in the website's js code. However, during the process, a third additional error was observed, which caused the game logic to be incorrect. So, I added extra code to fix this third problem as well.
+- For this assignment, we were asked to fix two errors in the website's js code. However, 
+during the process, a third additional error was observed, which caused the game logic to be incorrect.
+So, I added extra code to fix this third problem as well.
 
 # Installation
 
@@ -12,7 +14,10 @@ cd drag-and-drop-puzzle-game
 
 # Usage
 
-1. explicar o que fazer no site
+1. The website presents 4 different types of puzzles, 
+where the user has to drag the piece and drop it in the right place according to the image. 
+When finished, the user can change the puzzle by selecting another image below and the will pieces return to 
+their original place and change according to the image and the chosen puzzle.
 
 # Contributing
 1. Create a new repository
@@ -25,7 +30,7 @@ cd drag-and-drop-puzzle-game
 1.0.0 - Initial release with basic drag-and-drop functionality for the puzzle pieces.
 
 # Credits
-Developed by [Your Name or Username].
+Developed by Hannah Melo Silva.
 
 # License
 MIT License 
