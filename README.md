@@ -8,6 +8,7 @@ So, I added extra code to fix this third problem as well.
 
 1. Clone the repository to your local machine: 
 git clone https://github.com/your-username/drag-and-drop-puzzle-game.git
+git clone https://github.com/Hannah-MS-24/silva_hannah_hw2_crushing_bugs_?tab=readme-ov-file
 2. Navigate to the project directory:
 cd drag-and-drop-puzzle-game
 3. Open index.html in your browser to play the game.
